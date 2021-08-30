@@ -1,24 +1,26 @@
-# README
+# RoR Tutorial Web App example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample application web.
+I follow the "Ruby on rails tutorial - Learn Web Development with Rails", the 6th edition by Michael Hartl
 
-Things you may want to cover:
+## Getting started
 
-* Ruby version
+Clone the repo and install the needed gems :
 
-* System dependencies
+  $ Bundle install --without production
 
-* Configuration
+Next, migrate the DB
 
-* Database creation
+  $ rails db:migrate
 
-* Database initialization
+Finally, run the test suite for that everuthing is working correctly:
 
-* How to run the test suite
+  $ rails test
 
-* Services (job queues, cache servers, search engines, etc.)
+You can run this app in a local server with this command :
 
-* Deployment instructions
+  $ rails server
 
-* ...
+###
+
+
